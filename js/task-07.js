@@ -31,15 +31,7 @@ const isLoginValid = function (string) {
 };
 
 const isLoginUnique = function (array, string) {
-  let uniqueLogin = true;
-
-  for (let element of array) {
-    if (string === element) {
-      uniqueLogin = !uniqueLogin;
-      break;
-    }
-  }
-  return uniqueLogin;
+    return !array.includes(string);
 };
 
 const addLogin = function (array, string) {
