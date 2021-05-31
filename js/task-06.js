@@ -39,23 +39,6 @@ const additionElements = function (array) {
   }
 };
 
-// let numbers = [];
-// let input;
-// let total = 0;
-// do {
-//   input = prompt('Введите число: ');
-//   if (!Number.isNaN(Number(input))) {
-//     numbers.push(Number(input));
-//   } else {
-//     alert('Вы ввели не число!');
-//   }
-// } while (input !== null);
-
-// if (numbers.length > 0) {
-//     for (let number of numbers) {
-//         total += number;
-//     }
-// }
 const testArray = addingToArray();
 console.log(testArray);
 console.log(`Общая сумма чисел равна ${additionElements(testArray)}`);
